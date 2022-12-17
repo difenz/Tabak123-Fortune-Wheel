@@ -10,124 +10,124 @@
         id: 1,
         name: 'Сегодня вы ничего не выиграли :(',
         img:
-          'prizes/empty.png',
+          'empty.png',
       },
       {
         id: 2,
         name: 'Вкинь-ка (на выбор)',
         img:
-          'prizes/snusik.png',
+          'snusik.png',
       },
       {
         id: 3,
         name: 'Сегодня вы ничего не выиграли :(',
         img:
-          'prizes/empty.png',
+          'empty.png',
       },
       {
         id: 4,
         name: 'Пика одноразка',
-        img: 'prizes/pika.png',
+        img: 'pika.png',
       },
       {
         id: 5,
         name: 'Сегодня вы ничего не выиграли :(',
-        img: 'prizes/empty.png',
+        img: 'empty.png',
       },
       {
         id: 6,
         name: 'Maskking',
         img:
-          'prizes/cigone.png',
+          'cigone.png',
       },
       {
         id: 7,
         name: 'Жидкость ачонет?/xylinet?',
         img:
-          'prizes/achonet.png',
+          'achonet.png',
       },
       {
         id: 8,
         name: 'Сегодня вы ничего не выиграли :(',
-        img: 'prizes/empty.png',
+        img: 'empty.png',
       },
       {
         id: 9,
         name: 'Сегодня вы ничего не выиграли :(',
         img:
-          'prizes/empty.png',
+          'empty.png',
       },
       {
         id: 10,
         name: '100 Баллов',
         img:
-          'prizes/empty.png',
+          'empty.png',
       },
       {
         id: 11,
         name: 'Сегодня вы ничего не выиграли :(',
         img:
-          'prizes/empty.png',
+          'empty.png',
       },
       {
         id: 12,
         name: '50 Баллов',
         img:
-          'prizes/empty.png',
+          'empty.png',
       },
       {
         id: 13,
         name: 'Сегодня вы ничего не выиграли :(',
         img:
-          'prizes/empty.png',
+          'empty.png',
       },
       {
         id: 14,
         name: 'Сегодня вы ничего не выиграли :(',
         img:
-          'prizes/empty.png',
+          'empty.png',
       },
       {
         id: 15,
         name: 'Сегодня вы ничего не выиграли :(',
         img:
-          'prizes/empty.png',
+          'empty.png',
       },
       {
         id: 16,
         name: 'Сегодня вы ничего не выиграли :(',
         img:
-          'prizes/empty.png',
+          'empty.png',
       },
       {
         id: 17,
         name: 'Сегодня вы ничего не выиграли :(',
         img:
-          'prizes/empty.png',
+          'empty.png',
       },
       {
         id: 18,
         name: 'Сегодня вы ничего не выиграли :(',
         img:
-          'prizes/empty.png',
+          'empty.png',
       },
       {
         id: 19,
         name: 'Сегодня вы ничего не выиграли :(',
         img:
-          'prizes/empty.png',
+          'empty.png',
       },
       {
         id: 20,
         name: 'Сегодня вы ничего не выиграли :(',
         img:
-          'prizes/empty.png',
+          'empty.png',
       },
       {
         id: 21,
         name: 'Сегодня вы ничего не выиграли :(',
         img:
-          'prizes/empty.png',
+          'empty.png',
       },
     ];
   
