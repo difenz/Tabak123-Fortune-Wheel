@@ -8,7 +8,7 @@
     const surprises = [
       {
         id: 1,
-        name: 'Сегодня вы ничего не выиграли :(',
+        name: 'Удача где-то рядом',
         img:
           'empty.png',
       },
@@ -20,7 +20,7 @@
       },
       {
         id: 3,
-        name: 'Сегодня вы ничего не выиграли :(',
+        name: 'Удача где-то рядом',
         img:
           'empty.png',
       },
@@ -31,7 +31,7 @@
       },
       {
         id: 5,
-        name: 'Сегодня вы ничего не выиграли :(',
+        name: 'Удача где-то рядом',
         img: 'empty.png',
       },
       {
@@ -42,20 +42,20 @@
       },
       {
         id: 7,
-        name: 'Жидкость ачонет?/xylinet?',
+        name: 'Жидкость ачонет?',
         img:
           'achonet.png',
       },
       {
         id: 8,
-        name: 'Сегодня вы ничего не выиграли :(',
+        name: 'Удача где-то рядом',
         img: 'empty.png',
       },
       {
         id: 9,
-        name: 'Сегодня вы ничего не выиграли :(',
+        name: 'Жидкость xylinet?',
         img:
-          'empty.png',
+          'xylinet.png',
       },
       {
         id: 10,
@@ -65,7 +65,7 @@
       },
       {
         id: 11,
-        name: 'Сегодня вы ничего не выиграли :(',
+        name: 'Удача где-то рядом',
         img:
           'empty.png',
       },
@@ -77,55 +77,19 @@
       },
       {
         id: 13,
-        name: 'Сегодня вы ничего не выиграли :(',
+        name: 'Удача где-то рядом',
         img:
           'empty.png',
       },
       {
         id: 14,
-        name: 'Сегодня вы ничего не выиграли :(',
+        name: 'Удача где-то рядом',
         img:
           'empty.png',
       },
       {
         id: 15,
-        name: 'Сегодня вы ничего не выиграли :(',
-        img:
-          'empty.png',
-      },
-      {
-        id: 16,
-        name: 'Сегодня вы ничего не выиграли :(',
-        img:
-          'empty.png',
-      },
-      {
-        id: 17,
-        name: 'Сегодня вы ничего не выиграли :(',
-        img:
-          'empty.png',
-      },
-      {
-        id: 18,
-        name: 'Сегодня вы ничего не выиграли :(',
-        img:
-          'empty.png',
-      },
-      {
-        id: 19,
-        name: 'Сегодня вы ничего не выиграли :(',
-        img:
-          'empty.png',
-      },
-      {
-        id: 20,
-        name: 'Сегодня вы ничего не выиграли :(',
-        img:
-          'empty.png',
-      },
-      {
-        id: 21,
-        name: 'Сегодня вы ничего не выиграли :(',
+        name: 'Товар по 100',
         img:
           'empty.png',
       },
@@ -133,8 +97,8 @@
   
     const spin = () => {
       startButton.setAttribute('disabled', 'disabled');
-      deg = Math.floor(5000 + Math.random() * 5000);
-      wheel.style.transition = 'all 10s cubic-bezier(.4,.09,0,1.00)';
+      deg = Math.floor(3000 + Math.random() * 3000);
+      wheel.style.transition = 'all 5s cubic-bezier(.4,.09,0,1.00)';
       wheel.style.transform = `rotate(${deg}deg)`;
       limit += 1;
     };
