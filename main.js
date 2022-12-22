@@ -8,88 +8,94 @@
     const surprises = [
       {
         id: 1,
-        name: 'Удача где-то рядом',
+        name: 'Удача где-то рядом, попробуйте еще раз',
         img:
           'empty.png',
       },
       {
         id: 2,
-        name: 'Вкинь-ка (на выбор)',
+        name: 'Поздравляем! Вы выиграли: Вкинь-ка (на выбор)',
         img:
           'snusik.png',
       },
       {
         id: 3,
-        name: 'Удача где-то рядом',
+        name: 'Удача где-то рядом, попробуйте еще раз',
         img:
           'empty.png',
       },
       {
         id: 4,
-        name: 'Пика одноразка',
+        name: 'Поздравляем! Вы выиграли: Пика одноразка',
         img: 'pika.png',
       },
       {
         id: 5,
-        name: 'Удача где-то рядом',
+        name: 'Удача где-то рядом, попробуйте еще раз',
         img: 'empty.png',
       },
       {
         id: 6,
-        name: 'Maskking',
+        name: 'Поздравляем! Вы выиграли: Maskking',
         img:
           'cigone.png',
       },
       {
         id: 7,
-        name: 'Жидкость ачонет?',
+        name: 'Поздравляем! Вы выиграли: Жидкость ачонет?',
         img:
           'achonet.png',
       },
       {
         id: 8,
-        name: 'Удача где-то рядом',
+        name: 'Удача где-то рядом, попробуйте еще раз',
         img: 'empty.png',
       },
       {
         id: 9,
-        name: 'Жидкость xylinet?',
+        name: 'Поздравляем! Вы выиграли: Жидкость xylinet?',
         img:
           'xylinet.png',
       },
       {
         id: 10,
-        name: '100 Баллов',
+        name: 'Поздравляем! Вы выиграли: 100 Баллов',
         img:
           'empty.png',
       },
       {
         id: 11,
-        name: 'Удача где-то рядом',
+        name: 'Удача где-то рядом, попробуйте еще раз',
         img:
           'empty.png',
       },
       {
         id: 12,
-        name: '50 Баллов',
+        name: 'Поздравляем! Вы выиграли: 50 Баллов',
         img:
           'empty.png',
       },
       {
         id: 13,
-        name: 'Удача где-то рядом',
+        name: 'Удача где-то рядом, попробуйте еще раз',
         img:
           'empty.png',
       },
       {
         id: 14,
-        name: 'Удача где-то рядом',
+        name: 'Удача где-то рядом, попробуйте еще раз',
         img:
           'empty.png',
       },
       {
         id: 15,
-        name: 'Товар по 100',
+        name: 'Поздравляем! Вы выиграли: Товар по 100',
+        img:
+          'empty.png',
+      },
+      {
+        id: 16,
+        name: 'Удача где-то рядом, попробуйте еще раз',
         img:
           'empty.png',
       },
@@ -145,4 +151,12 @@
       createSurprise(surprises);
     });
   })();
+
+  var timer = false;
+  var reloadTime = 30000; // ms
+
+function reloadTimer() {
+  if (!!timer) clearTimeout(timer);
+  timer = setTimeout(function(){ top.location.reload(); }, reloadTime);
+  }
   
